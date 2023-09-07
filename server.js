@@ -16,7 +16,7 @@ app.use(express.json());
 app.use(cors({ origin: true }));
 
 app.get('/' , (req, res) => {
-    res.send('hello world')
+    res.send('We are live! Server for Shopping app.')
 })
 
 app.post('/create-checkout-session' , createCheckoutSession)
